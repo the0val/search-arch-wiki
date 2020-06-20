@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Arch Wiki Search",
+  "version": "1.0",
+
+  "description": "Adds wiki search engine",
+
+  "icons": {
+    "64": "icons/arch-64.png",
+    "256": "icons/arch-256.png"
+  },
+
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Arch Wiki Search",
+      "search_url": "https://wiki.archlinux.org/index.php?search={searchTerms}",
+      "suggest_url": "https://wiki.archlinux.org/api.php?action=opensearch&format=json&formatversion=2&search={searchTerms}&limit=10&suggest=true",
+      "favicon_url": "https://www.archlinux.org/static/favicon.ico"
+    }
+  }
+}
