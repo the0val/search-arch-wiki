@@ -4,7 +4,7 @@
   "name": "Arch Wiki Search",
   "version": "1.0",
 
-  "description": "Adds wiki search engine",
+  "description": "Adds Arch wiki search engine to browsers such as Firefox, Chrome and microsoft edge.",
 
   "icons": {
     "64": "icons/arch-64.png",
